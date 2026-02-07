@@ -9,6 +9,7 @@ pipeline {
         // Credentials IDs from Jenkins Global Store
         DOCKER_CREDS    = 'dockerhubcred'
         SONAR_SCANNER   = tool 'SonarQube'
+        RECIPIENT_EMAIL = 'karanjondhale3358@gmail.com'
     }
 
     stages {
